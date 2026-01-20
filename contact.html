@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Shivam Choudhary</title>
+  <style>
+    /* GLOBAL STYLES */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    body {
+      background-color: #f0f5f5;
+      color: #111827;
+    }
+
+    a {
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    /* NAVBAR */
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 40px;
+      background-color: #0B3F3C; /* dark teal */
+      color: white;
+    }
+
+    nav ul {
+      display: flex;
+      list-style: none;
+    }
+
+    nav ul li {
+      margin-left: 20px;
+    }
+
+    nav ul li a {
+      color: white;
+      font-weight: 500;
+    }
+
+    nav ul li a:hover {
+      color: #78350F; /* chocolate */
+    }
+
+    nav .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    /* CONTACT SECTION */
+    .contact-section {
+      max-width: 900px;
+      margin: 80px auto;
+      padding: 0 20px;
+    }
+
+    .section-number {
+      font-size: 14px;
+      color: #6b7280;
+      letter-spacing: 1px;
+    }
+
+    .section-title {
+      font-size: 3rem;
+      font-weight: 500;
+      margin: 20px 0 40px;
+      color: #0B3F3C;
+    }
+
+    .contact-info {
+      list-style: none;
+      padding: 0;
+      font-size: 1.3rem;
+    }
+
+    .contact-info li {
+      margin-bottom: 15px;
+    }
+
+    .contact-info a {
+      color: #0B3F3C;
+      font-weight: 500;
+    }
+
+    .contact-info a:hover {
+      color: #78350F;
+    }
+
+    /* BUTTONS */
+    .btn {
+      padding: 12px 25px;
+      border-radius: 6px;
+      font-weight: 600;
+      margin-top: 25px;
+      display: inline-block;
+      margin-right: 15px;
+    }
+
+    .primary-btn {
+      background-color: #0B3F3C;
+      color: white;
+      border: 2px solid #0B3F3C;
+    }
+
+    .primary-btn:hover {
+      background-color: #78350F;
+      border-color: #78350F;
+    }
+
+    .secondary-btn {
+      background-color: transparent;
+      border: 2px solid #0B3F3C;
+      color: #0B3F3C;
+    }
+
+    .secondary-btn:hover {
+      background-color: #0B3F3C;
+      color: white;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      nav ul {
+        flex-direction: column;
+        margin-top: 10px;
+      }
+
+      nav ul li {
+        margin: 10px 0 0 0;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .section-title {
+        font-size: 2rem;
+      }
+
+      .contact-info {
+        font-size: 1.1rem;
+      }
+
+      .btn {
+        padding: 10px 18px;
+        margin-bottom: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="logo">Shivam Choudhary</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="expertise.html">Expertise</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- CONTACT SECTION -->
+  <section class="contact-section">
+    <span class="section-number"></span>
+    <h2 class="section-title">Get in Touch</h2>
+    <h3>Have a safety project in mind? Get in touch</h3>
+    <br>
+    <ul class="contact-info">
+      <li>Phone: <a href="tel:+917351922949">+91 73519 22949</a></li>
+      <li>WhatsApp: <a href="https://wa.me/917351922949?text=Hello%20Shivam,%20I%20would%20like%20to%20connect%20with%20you." target="_blank">Chat with me</a></li>
+      <li>Instagram: <a href="https://www.instagram.com/choudhary_shivam_jaat__/" target="_blank">@choudhary_shivam_jaat__</a></li>
+    </ul>
+
+    <a href="Shivam_Resume.pdf" class="btn primary-btn" download>Download Resume</a>
+    <a href="https://wa.me/917351922949" target="_blank" class="btn secondary-btn">Get in Touch</a>
+  </section>
+
+</body>
+</html>

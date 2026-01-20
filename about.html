@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me - Shivam Choudhary</title>
+  <style>
+    body {
+      font-family: "Times New Roman", Times, serif;
+      background-color: #f3f4f6; /* Dark teal background */
+      color: #0B3F3C; /* Soft white text */
+      margin: 0;
+      padding: 0;
+    }
+
+    a {text-decoration: none; transition: 0.3s;}
+    ul {list-style: none; padding: 0; margin: 0;}
+
+    /* NAVBAR */
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 50px;
+      background-color:#0B3F3C; ; /* Dark navy */
+      color: white;
+    }
+
+    nav .logo {
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+
+    nav ul {
+      display: flex;
+    }
+
+    nav ul li {
+      margin-left: 20px;
+    }
+
+    nav ul li a {
+      color: white;
+      font-weight: 500;
+    }
+
+    nav ul li a:hover {
+      color: #E05A2A; /* Accent hover */
+    }
+
+    /* ABOUT SECTION */
+    .aboutSection {
+      max-width: 1000px;
+      margin: 80px auto;
+      padding: 0 20px;
+    }
+
+    .aboutSection h1 {
+      font-size: 3rem;
+      color: #0B3F3C;; /* Orange accent */
+      margin-bottom: 20px;
+    }
+
+    .aboutSection p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      margin-bottom: 15px;
+      color: black; /* Soft white */
+    }
+
+    .aboutSection h2 {
+      font-size: 2rem;
+      color: #0B3F3C;;
+      margin-top: 30px;
+      margin-bottom: 15px;
+    }
+
+    .aboutSection ul {
+      list-style: "▹ ";
+      margin-left: 20px;
+      margin-bottom: 30px;
+    }
+
+    .aboutSection ul li {
+      margin-bottom: 10px;
+      font-size: 1.1rem;
+    }
+
+    .aboutSection .btn {
+      padding: 12px 25px;
+      margin-right: 15px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .primary-btn {
+      background-color: #0B3F3C;; /* Chocolate button */
+      color: white;
+      border: none;
+    }
+
+    .primary-btn:hover {
+      background-color: chocolate;;
+    }
+
+    .secondary-btn {
+      border: 2px solid #0B3F3C;
+      color: white;
+      background-color: #0B3F3C;;
+    }
+
+    .secondary-btn:hover {
+      background-color: chocolate;
+      color: white;
+    }
+
+    /* Responsive */
+    @media screen and (max-width: 768px) {
+      nav { flex-direction: column; align-items: flex-start; }
+      nav ul { flex-direction: column; }
+      nav ul li { margin: 10px 0 0 0; }
+    }
+  </style>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="logo">Shivam Choudhary</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="expertise.html">Expertise</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ABOUT SECTION -->
+  <section class="aboutSection">
+    <h1>About Me</h1>
+    <p>
+      Hello! I’m <span>Shivam Choudhary</span>, a dedicated Safety Officer committed to ensuring safe and compliant workplaces. 
+      I specialize in risk assessments, safety training, and maintaining operational safety standards.
+    </p>
+    <p>
+      I have over 1 year of experience at JBS Pvt. Ltd, Tata Eureka Park, Noida, implementing safety protocols, monitoring hazards, 
+      and training teams on personal protective equipment (PPE) and emergency procedures.
+    </p>
+    <p style="font-family: 'Times New Roman', Times, serif;">
+      I have successfully completed Fire and Safety training from NASF, Ghaziabad, equipping me with the knowledge and skills to handle emergency situations effectively.
+    </p>
+    <p>
+      My mission is to maintain safe, secure, and hazard-free environments while promoting a culture of workplace safety awareness.
+    </p>
+
+    <h2>My Goals</h2>
+    <ul>
+      <li>Ensure safety in the workplace every day.</li>
+      <li>Follow and enforce safety rules and regulations.</li>
+      <li>Identify hazards and reduce risks for all employees.</li>
+      <li>Provide training and guidance to maintain a safe environment.</li>
+      <li>Continuously improve safety practices and procedures.</li>
+    </ul>
+
+    <a href="Shivam_Resume.pdf" class="btn primary-btn" download>Download Resume</a>
+    <a href="https://wa.me/917351922949" class="btn secondary-btn" target="_blank">Get in Touch</a>
+  </section>
+</body>
+</html>
