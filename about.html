@@ -122,6 +122,33 @@
       nav ul { flex-direction: column; }
       nav ul li { margin: 10px 0 0 0; }
     }
+    .about-buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.about-buttons .btn {
+  display: block;
+  box-sizing: border-box;
+  max-width: 100%;
+  white-space: nowrap;
+}
+
+/* Mobile fix */
+@media (max-width: 480px) {
+  .about-buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .about-buttons .btn {
+    width: 100%;
+    text-align: center;
+    padding: 12px 10px;
+  }
+}
   </style>
 </head>
 <body>
@@ -163,8 +190,11 @@
       <li>Continuously improve safety practices and procedures.</li>
     </ul>
 
-    <a href="Shivam_Resume.pdf" class="btn primary-btn" download>Download Resume</a>
-    <a href="https://wa.me/917351922949" class="btn secondary-btn" target="_blank">Get in Touch</a>
+   <div class="about-buttons">
+  <a href="Shivam_Resume.pdf" class="btn primary-btn" download>Download Resume</a>
+  <a href="https://wa.me/917351922949" class="btn secondary-btn" target="_blank">Get in Touch</a>
+</div>
   </section>
 </body>
+
 </html>
